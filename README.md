@@ -1,1 +1,0 @@
-# devgabrielvieira.github.io

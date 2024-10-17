@@ -1,138 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Gabriel Vieira</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Portfólio de Gabriel Vieira - Desenvolvedor Backend e Analista de Sistemas, com foco em Python, Django e soluções criativas.">
+    <title>Portfólio de Gabriel Vieira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header class="header">
-        <a href="#" class="logo"></a>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">Sobre</a>
-            <a href="#contact">Contato</a>
-        </nav>
-
-        <div class="bx bx-moon" id="darkMode-icon"></div>
-
-        <div class="bx bx-menu" id="menu-icon"></div>
+    <header>
+        <div class="container">
+            <h1>Gabriel Vieira</h1>
+            <p>Analista de Sistemas | Desenvolvedor Backend</p>
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> Sobre</a></li>
+                    <li><a href="#skills"><i class="fas fa-laptop-code"></i> Habilidades</a></li>
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experiência</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projetos</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Olá, eu sou</h3>
-            <h1>Gabriel Vieira</h1>
-            <p>
-                Desenvolvedor backend apaixonado por aprender novas tecnologias e resolver problemas de forma criativa com código!
-            </p>
-            <div class="social-media">
-                <a href="https://github.com/devgabrielvieira"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/dev.gabivieira/"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="https://www.linkedin.com/in/devgabrielvieira/"><i class='bx bxl-linkedin'></i></a>
-            </div>
-
-            <a href="https://drive.google.com/file/d/15XFjiXK74j-WUw3blaqD0IMDwjXQqxwD/view?usp=sharing" class="btn">Download CV</a>
-        </div>
-
-        <div class="profession-container">
-            <div class="profession-box">
-                <div class="profession" style="--i:0;">
-                    <!-- <i class='bx bx-code-alt'></i> -->
-                    <!-- <h3>Backend Developer</h3> -->
-                </div>
-                
-                <div class="circle"></div>
-            </div>
-
-            <div class="overlay"></div>
-        </div>
-
-        <div class="home-img">
-            <img src="images/home.png" alt="">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/about.png" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">Sobre <span>Mim</span></h2>
-            <br>
-            <h3>
-                Olá, bem-vindo ao meu site! 
-            </h3>
-            <p>
-                Sou um desenvolvedor especializado em Python e Django, com experiência no desenvolvimento
-                de aplicações web e API's.
-                Tenho atuado na criação de sistemas complexos, incluindo integração com APIs externas.
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Formado em Análise e Desenvolvimento de Sistemas, com 15 anos de experiência em infraestrutura de redes, montagem e manutenção de computadores.
+                Durante minha trajetória, desenvolvi habilidades abrangentes em suporte técnico, gerenciamento de redes, e acesso remoto, o que me permitiu atuar
+                de forma proativa na resolução de problemas e na otimização de processos. Além disso, possuo conhecimento em linguagens de programação, como Python e Django,
+                e tenho familiaridade com o uso de Git e GitHub. Atualmente, busco aplicar essa combinação de expertise técnica e desenvolvimento de software
+                em projetos que exijam uma visão estratégica e soluções integradas para melhorar a eficiência e segurança dos sistemas.</p>
+                <a href="https://github.com/devgabrielvieira" target="_blank" class="buttons-btn"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/devgabrielvieira/" target="_blank" class="buttons-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/dev.gabivieira/" target="_blank" class="buttons-btn"><i class="fab fa-instagram"></i></a>
                 <br>
-                Meu trabalho envolve desde a modelagem de banco de dados até o desenvolvimento de
-                interfaces dinâmicas usando o Django Template Language, além de lidar com questões
-                de desempenho e segurança no backend.
-            </p>
-            <h3>
-                Tecnologias: 
-            </h3>
-            <p>
-                Python <br>
-                Django <br>
-            </p>
-            <h3>
-                Formação:
-            </h3>
-            <p>
-                Análise e Desenvolvimento de Sistemas <br>
-            </p>
-            <a href="#" class="btn">Ler mais</a>
+            <a href="https://drive.google.com/file/d/15XFjiXK74j-WUw3blaqD0IMDwjXQqxwD/view?usp=sharing" target="_blank" class="download-btn"><i class="fas fa-download"></i> Baixar Currículo</a>
         </div>
     </section>
 
-    <section class="contact" id="contact">
-        <h2 class="heading">Entre em Contato <span>Comigo!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="Endereço de email">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Número de telefone">
-                <input type="text" placeholder="Assunto do e-mail">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <input type="submit" value="Enviar mensagem" class="btn">
-        </form>
+    <section id="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><i class="fab fa-python"></i> Python, Django</li>
+                <li><i class="fab fa-github"></i> Git, GitHub</li>
+                <li><i class="fas fa-network-wired"></i> Infraestrutura de Redes</li>
+                <li><i class="fas fa-phone-alt"></i> Telefonia VoIP e CFTV</li>
+                <li><i class="fas fa-tools"></i> Montagem e Manutenção de Computadores</li>
+            </ul>
+        </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+    <section id="experience">
+        <div class="container">
+            <h2>Experiência</h2>
+            <div class="experience-item">
+                <h3><i class="fas fa-building"></i> MCM Informática - Desenvolvedor de Software - Python</h3>
+                <p>Desenvolvimento back-end, desenvolvimento de aplicações web, integração de sistemas, automação de tarefas, análise e manipulação de dados.</p>
+            </div>
+            <div class="experience-item">
+                <h3><i class="fas fa-building"></i> KIK Calçados - Analista de TI</h3>
+                <p>Gerenciamento e análise dos servidores internos e externos, gerenciamento de infraestrutura de redes cabeada e wi-fi, suporte técnico para clientes internos e externos.</p>
+            </div>
         </div>
+    </section>
 
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    <section id="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="project-item">
+                <h3><i class="fas fa-code"></i> Sistema de Gestão de Estoque - AltTab Manager</h3>
+                <p>Aplicação desenvolvida com Django para gerenciamento de estoque e saídas de produtos. Solução otimizada para controle financeiro e gestão em tempo real.</p>
+                <a href="https://github.com/devgabrielvieira/alttab_manager"  target="_blank" class="buttons-btn"><i class="fab fa-github"></i> Ver no GitHub</a>
+                <br>
+                <br>
+                <img src="img/AltTab-Manager.png" alt="Imagem do Sistema de Gerenciamento">
+            </div>
+            <div class="project-item">
+                <h3><i class="fas fa-code"></i> Aplicação de Backup Automatizado</h3>
+                <p>Monitoramento de arquivos com Watchdog, interface gráfica com Tkinter.</p>
+                <a href="https://github.com/devgabrielvieira/e_backup" target="_blank" class="buttons-btn"><i class="fab fa-github"></i> Ver no GitHub</a>
+                <br>
+                <br>
+                <img src="img/e-Backup.png" alt="Imagem da Aplicação de Backup">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar_email.php" method="POST">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gabriel Vieira. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-    <script src="js/script.js"></script>
 </body>
-
 </html>
