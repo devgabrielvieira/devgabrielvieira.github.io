@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresent
 
 ## 🖼️ Visualização
 
-Você pode acessar o portfólio ao vivo através deste link: [Meu Portfólio](https://seu-link-aqui.com).
+Você pode acessar o portfólio ao vivo através deste link: [Meu Portfólio](https://devgabrielvieira.github.io/).
 
 ## 📜 Sobre o Portfólio
 
@@ -39,11 +39,22 @@ Este portfólio foi projetado com **responsividade** em mente, ou seja, ele se a
 ### Versão Mobile:
 ![Mobile](img/mobile.png)
 
-## 📂 Como Executar o Projeto Localmente
+## 🔧 Melhorias Futuras
 
-Se você deseja clonar e executar o portfólio localmente, siga os passos abaixo:
+Algumas melhorias planejadas para futuras versões do portfólio:
 
-### 1. Clone o repositório:
-```
-git clone https://github.com/seu-usuario/seu-portfolio.git
-```
+- Adicionar uma animação suave de rolagem para os links de navegação.
+- Melhorar a seção de Projetos com mais detalhes sobre as tecnologias utilizadas em cada projeto.
+- Implementar uma versão dinâmica do portfólio utilizando JavaScript para exibir dados de forma mais interativa.
+
+## 👨‍💻 Sobre Mim
+
+Formado em Análise e Desenvolvimento de Sistemas, com 15 anos de experiência em infraestrutura de redes, montagem e manutenção de computadores. Durante minha trajetória, desenvolvi habilidades abrangentes em suporte técnico, gerenciamento de redes, e acesso remoto, o que me permitiu atuar de forma proativa na resolução de problemas e na otimização de processos. Além disso, possuo conhecimento em linguagens de programação, como Python e Django, e tenho familiaridade com o uso de Git e GitHub. Atualmente, busco aplicar essa combinação de expertise técnica e desenvolvimento de software em projetos que exijam uma visão estratégica e soluções integradas para melhorar a eficiência e segurança dos sistemas.
+
+Se você está interessado em saber mais sobre meu trabalho ou discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato! 💬
+
+## 📞 Contato
+
+Email: gabriel_bardo@hotmail.com
+LinkedIn: [devgabrielvieira](https://www.linkedin.com/in/devgabrielvieira/)
+GitHub: [devgabrielvieira](https://github.com/devgabrielvieira)
