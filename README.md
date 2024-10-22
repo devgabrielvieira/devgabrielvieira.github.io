@@ -55,6 +55,6 @@ Se você está interessado em saber mais sobre meu trabalho ou discutir oportuni
 
 ## 📞 Contato
 
-Email: gabriel_bardo@hotmail.com
-LinkedIn: [devgabrielvieira](https://www.linkedin.com/in/devgabrielvieira/)
-GitHub: [devgabrielvieira](https://github.com/devgabrielvieira)
+- Email: gabriel_bardo@hotmail.com
+- LinkedIn: [devgabrielvieira](https://www.linkedin.com/in/devgabrielvieira/)
+ - GitHub: [devgabrielvieira](https://github.com/devgabrielvieira)
