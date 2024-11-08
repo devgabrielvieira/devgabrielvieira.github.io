@@ -33,3 +33,22 @@ window.onscroll = function () {
 backToTopButton.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// Seleciona todas as imagens dos projetos
+document.querySelectorAll('.project-item img').forEach(img => {
+    img.addEventListener('click', function() {
+        // Cria o lightbox e o conteúdo da imagem
+        const lightbox = document.createElement('div');
+        lightbox.id = 'lightbox';
+        lightbox.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+        document.body.appendChild(lightbox);
+        lightbox.addEventListener('click', () => {
+            lightbox.remove(); // Fecha o lightbox ao clicar fora da imagem
+        });
+    });
+});
+
+// Fecha o lightbox ao clicar no botão de fechar
+document.getElementById('close-lightbox').addEventListener('click', () => {
+    document.getElementById('lightbox').remove();
+});
