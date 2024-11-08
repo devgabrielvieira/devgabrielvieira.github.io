@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #00bfff;
+    --primary-color: #3CB371;
+    /* --primary-color: #00bfff; */
     --secondary-color: #333;
     --background-color: #f4f4f4;
     --font-color: #333;
@@ -91,7 +92,7 @@ footer {
 }
 
 .download-btn:hover {
-    background-color: #0099cc;
+    background-color: #2E8B57;
 }
 
 .buttons-btn {
@@ -105,8 +106,13 @@ footer {
 }
 
 .buttons-btn:hover {
-    background-color: #0099cc;
+    background-color: #2E8B57;
 }
+
+.icon {
+    color: var(--primary-color);
+}
+
 
 form input, form textarea {
     width: 100%;
@@ -126,7 +132,8 @@ form button {
 }
 
 form button:hover {
-    background-color: #0099cc;
+    background-color: #2E8B57;
+    /* background-color: #0099cc; */
 }
 
 form i {
