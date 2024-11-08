@@ -31,14 +31,6 @@ O portfólio é composto pelas seguintes seções:
 
 Este portfólio foi projetado com **responsividade** em mente, ou seja, ele se adapta perfeitamente a diferentes dispositivos, incluindo smartphones, tablets e desktops. Usei media queries para ajustar o layout em telas menores, garantindo uma boa experiência de usuário em qualquer dispositivo.
 
-## 🖼️ Capturas de Tela
-
-### Versão Desktop:
-![Desktop](img/desktop.png)
-
-### Versão Mobile:
-![Mobile](img/mobile.png)
-
 ## 🔧 Melhorias Futuras
 
 Algumas melhorias planejadas para futuras versões do portfólio:
