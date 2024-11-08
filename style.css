@@ -146,6 +146,14 @@ form i {
     max-width: 600px;
 }
 
+.project-item img {
+    transition: transform 0.3s ease;
+}
+
+.project-item img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -181,4 +189,30 @@ form i {
         padding: 5px;
         font-size: 0.8rem;
     }
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
