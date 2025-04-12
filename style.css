@@ -88,38 +88,6 @@ footer {
     color: #fff;
 }
 
-.download-btn {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.download-btn:hover {
-    background-color: #2E8B57;
-}
-
-.buttons-btn {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 5px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.buttons-btn:hover {
-    background-color: #2E8B57;
-}
-
-.icon {
-    color: var(--primary-color);
-}
-
 form input, form textarea {
     width: 100%;
     padding: 10px;
@@ -150,26 +118,6 @@ form button:hover {
 
 .project-item img:hover {
     transform: scale(1.1); /* Aumenta a imagem em 10% */
-}
-
-#lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8); /* Fundo escuro */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-#lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 #backToTop {
