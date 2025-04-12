@@ -10,14 +10,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Animação ao rolar para tornar as seções visíveis
 window.addEventListener('scroll', function () {
-    const sections = document.querySelectorAll('section'); // ajustado para selecionar diretamente todas as seções
+    const sections = document.querySelectorAll('section');
     sections.forEach(section => {
         const position = section.getBoundingClientRect().top;
-        if (position < window.innerHeight) {
+        if (position < window.innerHeight - 100) { // Ajustado para um efeito mais suave
             section.classList.add('visible');
         }
     });
 });
+
 
 // Botão "Topo"
 const backToTopButton = document.getElementById('backToTop');
