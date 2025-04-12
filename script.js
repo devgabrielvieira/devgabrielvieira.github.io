@@ -1,3 +1,14 @@
+// Função debounce para evitar execução excessiva do código durante o scroll
+function debounce(func, delay) {
+    let timeout;
+    return function (...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+            func.apply(this, args);
+        }, delay);
+    };
+}
+
 // Scroll suave ao clicar nos links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -9,29 +20,28 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Animação ao rolar para tornar as seções visíveis
-window.addEventListener('scroll', function () {
+const handleScroll = debounce(() => {
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
         const position = section.getBoundingClientRect().top;
-        if (position < window.innerHeight - 100) { // Ajustado para um efeito mais suave
+        if (position < window.innerHeight - 100) {
             section.classList.add('visible');
         }
     });
-});
 
-
-// Botão "Topo"
-const backToTopButton = document.getElementById('backToTop');
-
-window.onscroll = function () {
+    // Lógica para o botão "Voltar ao Topo"
+    const backToTopButton = document.getElementById('backToTop');
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
         backToTopButton.style.display = "block";
     } else {
         backToTopButton.style.display = "none";
     }
-};
+}, 100); // Ajuste o delay conforme necessário
 
-backToTopButton.addEventListener('click', function () {
+window.addEventListener('scroll', handleScroll);
+
+// Botão "Topo"
+document.getElementById('backToTop').addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
@@ -49,7 +59,12 @@ document.querySelectorAll('.project-item img').forEach(img => {
     });
 });
 
-// Fecha o lightbox ao clicar no botão de fechar
-document.getElementById('close-lightbox').addEventListener('click', () => {
-    document.getElementById('lightbox').remove();
+// Fecha o lightbox ao pressionar a tecla "Esc"
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox) {
+            lightbox.remove();
+        }
+    }
 });
