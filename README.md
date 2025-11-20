@@ -1,6 +1,7 @@
 # 📂 Portfólio de Gabriel Vieira
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades como **Analista de Sistemas** e **Desenvolvedor Backend**, com foco em tecnologias como **Python** e **Django**. O portfólio é totalmente responsivo, com uma interface moderna e funcional, destacando meus projetos, experiências e contato.
+Bem-vindo ao meu portfólio profissional.
+Este site reúne minhas principais competências em Suporte Técnico, Infraestrutura de TI, Windows, Linux, Active Directory, Microsoft 365. A estrutura responsiva e objetiva foi projetada para apresentar minha experiência, certificações, projetos e contribuições na área de tecnologia.
 
 ## 🖼️ Visualização
 
