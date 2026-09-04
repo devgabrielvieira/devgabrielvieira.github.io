@@ -1,53 +1,47 @@
-# 📂 Portfólio de Gabriel Vieira
+# 📂 Portfólio de Gabriel Vieira — Analista Modern Workplace
 
-Bem-vindo ao meu portfólio profissional.
-Este site reúne minhas principais competências em Suporte Técnico, Infraestrutura de TI, Windows, Linux, Active Directory, Microsoft 365. A estrutura responsiva e objetiva foi projetada para apresentar minha experiência, certificações, projetos e contribuições na área de tecnologia.
+Bem-vindo ao meu portfólio profissional. Site reposicionado para **Analista Modern Workplace | Intune • MECM/SCCM • Entra ID • Microsoft 365 | Autopilot & Endpoint Management**, com foco em gestão de endpoints em escala, identidades e produtividade Microsoft.
 
 ## 🖼️ Visualização
 
-Você pode acessar o portfólio ao vivo através deste link: [Meu Portfólio](https://devgabrielvieira.github.io/).
+Acesse ao vivo: [devgabrielvieira.github.io](https://devgabrielvieira.github.io/)
+
+Currículo: [Gabriel_Vieira_Visual_Badges.pdf](https://drive.google.com/file/d/13UPJZn6yITr-nGJlcWLw5schKr8feDB3/view?usp=sharing)
 
 ## 📜 Sobre o Portfólio
 
-O portfólio foi desenvolvido utilizando **HTML5** e **CSS3** para garantir uma boa estrutura e um design visualmente atraente. Além disso, integrei a biblioteca **Font Awesome** para adicionar ícones aos menus, habilidades e seções, tornando a navegação mais intuitiva e informativa.
+Portfólio em **HTML5 + CSS3 + JS puro** (sem build), otimizado para GitHub Pages. Visual corporativo **Microsoft Fluent** — paleta `#0078D4` / `#0F172A`, tipografia `Inter`/`Segoe UI`, cards, timeline e grid responsivo.
 
 ### ⚙️ Tecnologias Utilizadas
+- **HTML5** semântico, SEO otimizado (meta description Modern Workplace + CSP, referrer, X-Frame-Options)
+- **CSS3** com variáveis, Grid/Flexbox, media queries, Fluent Light/Dark (`#0078D4` / `#0F172A`)
+- **JavaScript** puro (debounce, scroll seguro, animação de seções, tema dark/light com localStorage, avatar fallback CSP-safe)
+- **Font Awesome 6.6** + **Google Fonts (Inter)** — carregados via HTTPS com `crossorigin` + `noopener`
 
-- **HTML5**
-- **CSS3** (incluindo flexbox e media queries para responsividade)
-- **Font Awesome** (para ícones visuais)
-- **Google Fonts** (usando a fonte personalizada *Roboto*)
-  
 ### 📐 Estrutura
-
-O portfólio é composto pelas seguintes seções:
-
-1. **Sobre Mim** - Uma breve apresentação destacando minha paixão por desenvolvimento backend e minha experiência com infraestrutura de redes.
-2. **Habilidades** - Um resumo das minhas principais habilidades técnicas, com ícones para cada uma.
-3. **Experiência** - Uma visão geral dos meus cargos anteriores, como **AltTab Informática** e **MCM Informática**.
-4. **Projetos** - Alguns dos meus projetos de destaque, com imagens e links para o GitHub.
-5. **Contato** - Um formulário simples para quem quiser entrar em contato comigo por email.
+1. **Hero** — Avatar `img/gabriel-vieira.jpg` (140px, fallback GV) + headline Modern Workplace + stats (25% tempo, 20% custos, 100+ migrações) + CTAs (Currículo PDF / LinkedIn / GitHub)
+2. **Resumo Profissional** — 4+ anos, +1.500 apps, Infrabout / TIVIT / KIK
+3. **Competências Técnicas** — 8 cards: Endpoint Management, Entra ID, M365, Segurança, Automação, ITSM, Infra, Dados
+4. **Experiência** — Timeline com Infrabout Modern Workplace (atual), Suporte N2, TIVIT Petrobras, KIK, MCM + experiências anteriores
+5. **Formação & Conquistas** — CST ADS, Técnico em Informática + Formação Complementar + 4 Badges (Entra Connect, Hybrid, AD Migration, M365 Domain)
+6. **Contato** — Cards (e-mail, LinkedIn, GitHub, localização) — formulário oculto (`is-hidden`) para segurança/compatibilidade com Pages; header com toggle de tema
 
 ## 📱 Responsividade
+Mobile-first, breakpoints 980px / 720px / 480px. Menu hambúrguer, hero em coluna única, grids adaptativos.
 
-Este portfólio foi projetado com **responsividade** em mente, ou seja, ele se adapta perfeitamente a diferentes dispositivos, incluindo smartphones, tablets e desktops. Usei media queries para ajustar o layout em telas menores, garantindo uma boa experiência de usuário em qualquer dispositivo.
+## 🔒 Segurança (GitHub Pages)
+- CSP `default-src 'self'`, `rel="noopener noreferrer"` em todos `target="_blank"`, `referrer` strict, `X-Content-Type-Options nosniff`, `X-Frame-Options DENY`, `.nojekyll`, validação de `localStorage` e âncoras, sanitização de `mailto`.
 
 ## 🔧 Melhorias Futuras
-
-Algumas melhorias planejadas para futuras versões do portfólio:
-
-- Adicionar uma animação suave de rolagem para os links de navegação.
-- Melhorar a seção de Projetos com mais detalhes sobre as tecnologias utilizadas em cada projeto.
-- Implementar uma versão dinâmica do portfólio utilizando JavaScript para exibir dados de forma mais interativa.
+- Adicionar seção de Labs (Intune/Autopilot) quando houver repositórios públicos
+- Certificações Microsoft (MD-102, MS-900) quando obtidas
+- Reativar formulário de contato com backend seguro (ex: Formspree) se necessário
 
 ## 👨‍💻 Sobre Mim
-
-Formado em Análise e Desenvolvimento de Sistemas, com 15 anos de experiência em infraestrutura de redes, montagem e manutenção de computadores. Durante minha trajetória, desenvolvi habilidades abrangentes em suporte técnico, gerenciamento de redes, e acesso remoto, o que me permitiu atuar de forma proativa na resolução de problemas e na otimização de processos. Além disso, possuo conhecimento em linguagens de programação, como Python e Django, e tenho familiaridade com o uso de Git e GitHub. Atualmente, busco aplicar essa combinação de expertise técnica e desenvolvimento de software em projetos que exijam uma visão estratégica e soluções integradas para melhorar a eficiência e segurança dos sistemas.
-
-Se você está interessado em saber mais sobre meu trabalho ou discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato! 💬
+Analista de Modern Workplace e Suporte N2 com foco em **Microsoft Intune, MECM/SCCM, Microsoft Entra ID e Microsoft 365**. Administração de ciclo de vida de dispositivos, Autopilot/Autopatch, Conditional Access/MFA, PowerShell e ITSM (ServiceNow, Genesys, BeyondTrust). 4+ anos em infraestrutura, suporte N1/N2 e automação.
 
 ## 📞 Contato
-
-- Email: gabriel_bardo@hotmail.com
+- E-mail: gabriel_bardo@hotmail.com
 - LinkedIn: [devgabrielvieira](https://www.linkedin.com/in/devgabrielvieira/)
- - GitHub: [devgabrielvieira](https://github.com/devgabrielvieira)
+- GitHub: [devgabrielvieira](https://github.com/devgabrielvieira)
+- Portfólio: https://devgabrielvieira.github.io/
