@@ -1,0 +1,6 @@
+Contact: mailto:gabriel_bardo@hotmail.com
+Expires: 2027-09-04T00:00:00.000Z
+Acknowledgments: https://devgabrielvieira.github.io/
+Preferred-Languages: pt-BR, en
+Canonical: https://devgabrielvieira.github.io/.well-known/security.txt
+Policy: https://github.com/devgabrielvieira/devgabrielvieira.github.io/security/policy

@@ -1,0 +1,65 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Python (gerador do currículo e relatório)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.venv/
+env/
+.ENV/
+pip-log.txt
+
+# Auditoria - venv isolado e artefatos temporários
+docs/security-audit/venv/
+docs/security-audit/__pycache__/
+docs/security-audit/*.log
+
+# Node (se usar build futuro)
+node_modules/
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Jekyll (GitHub Pages)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Logs e temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+
+# Env e segredos - nunca commitar
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Arquivos locais de teste
+coverage/
+.nyc_output/
