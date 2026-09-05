@@ -6,7 +6,7 @@ Bem-vindo ao meu portfólio profissional. Site reposicionado para **Analista Mod
 
 Acesse ao vivo: [devgabrielvieira.github.io](https://devgabrielvieira.github.io/)
 
-Currículo: [Gabriel_Vieira_SCCM_Intune.pdf](https://drive.google.com/file/d/13UPJZn6yITr-nGJlcWLw5schKr8feDB3/view?usp=sharing)
+Currículo: [Gabriel_Vieira_SCCM_Intune.pdf](https://drive.google.com/file/d/1kOvmghR2ceYuYAkesTTYs8Kt-mHwQnZy/view?usp=sharing)
 
 ## 📜 Sobre o Portfólio
 
